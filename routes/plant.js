@@ -300,6 +300,49 @@ router.get(
           commonPests:
             'A few pests are attracted to peppers—they also tend to be problematic for other members of the nightshade family (like tomatoes). However, with attentive care, it would be rare for them to impact your harvest significantly. Keep an eye out for aphids, mites, pepper hornworms, pill bugs and leafminers.',
         },
+        {
+          id: '4C',
+          botanicalName: 'Pericallis cruenta, Senecio cruentus',
+          commonName: '	Cineraria, Bug plant, purple-leaved groundsel',
+          description:
+            'If you want to add a bit of spice to your garden, the cayenne pepper plant might be the perfect choice. These plants are a Capsicum annuum species cultivar. The species includes many other common pepper varieties, including bell peppers, Serrano peppers, and jalapeños, although the cayenne packs more of a punch when it comes to heat.The peppers themselves measure around 4-6 inches long, have a long, tapering shape with a curved tip, and are most commonly red. The plants also produce flowers that are white to slightly purple and are shaped like a bell.',
+          family: null,
+          plantType: '	Tender perennial',
+          matureSize: '	4 to 5 feet',
+          sunExposure: 'Partial to full shade',
+          soilType: 'Moist but well-draining, slightly acidic, rich',
+          soilPH: '5.5 to 6.0',
+          bloomTime: 'Spring',
+          flowerColor: 'Various (no yellow)',
+          hardinessZones: '9 to 11',
+          nativeArea: 'Azores, Canary Islands',
+          howtoGrow:
+            "The flamboyant colors of cineraria, as well their versatile daisy shape, have made them increasingly popular in the United States in recent years as a decorative annual. But if you happen to live in a very warm zone (USDA 9 to 11) with ample humidity you can try growing them as perennials. As an annual, they hold their color for a decent period of time, so make sure they stay evenly moist, and deadhead them continually to encourage new buds, and you'll have weeks of glorious colorful blooms from spring through summer.",
+          pruning: null,
+          commonPests: null,
+        },
+        {
+          id: '5C',
+          botanicalName: 'Hibiscus Mutabilis',
+          commonName: 'Cotton Rose',
+          description:
+            'With its bright green foliage and showy flowers, the hibiscus mutabilis is a large shrub (or multi-stemmed tree) that is known for its unique color-changing effect--its flowers open as white but rapidly change colors.One of this plant’s common names, rose cotton, is a result of its round, hairy capsule that dries and releases fuzzy seeds. Some of its other monikers include confederate rose, dixie rosemallow, and cotton rosemallow. It was originally native to Southeastern China and nearby countries but is now found on all continents (with the exception of Antarctica).',
+          family: null,
+          plantType: 'Deciduous shrub/tree',
+          matureSize: '	6-15 feet tall; 6-10 feet wide',
+          sunExposure: '	Full sun',
+          soilType: '	Loamy, high organic matter',
+          soilPH: '	5-6.5',
+          bloomTime: '	Late Summer/Early Fall',
+          flowerColor: '	White, pink, red',
+          hardinessZones: '	7-11',
+          nativeArea: '	China',
+          howtoGrow:
+            'When the hibiscus mutabilis is in bloom, it remains a popular choice at garden centers due to its unusual and captivating beauty as a flowering tree. It’s ideal as a specimen plant, but can also be cultivated as part of a mixed shrub border or as a flowering shrub for foundation plantings. ',
+          pruning:
+            'You’ll want to prune this plant in the winter after it has bloomed. It can tolerate severe pruning—in fact, doing so will actually help rejuvenate leggy plants. Overall, minimal pruning is required.',
+          commonPests: null,
+        },
       ];
       res.json(allPlants);
     } catch (err) {
